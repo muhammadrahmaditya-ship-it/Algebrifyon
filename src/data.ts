@@ -1,7 +1,5 @@
 import { MaterialItem, VideoCategory } from "./types";
 import lumiThumb from "./assets/images/thm1.jpg";
-import catatan1 from "./assets/images/c1.jpeg";
-import catatan2 from "./assets/images/c2.jpeg";
 
 export const materialsData: MaterialItem[] = [
   {
