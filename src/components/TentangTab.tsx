@@ -1,5 +1,16 @@
-import React from "react";
+/** @jsxRuntime classic */
+/** @jsx React.createElement */
+/** @jsxFrag React.Fragment */
+import * as React from "react";
 import { Info, GraduationCap, Compass, Layers, ShieldCheck, User, Instagram } from "lucide-react";
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      [elemName: string]: any;
+    }
+  }
+}
 
 export default function TentangTab() {
   const creators = [

@@ -1,5 +1,6 @@
-import { useState } from "react";
-import { ChevronDown, ChevronRight, Calculator, CheckCircle2, XCircle, RefreshCw, BookOpen, Sparkles, Layers, Variable, Shuffle, LineChart, Scale, Network, Download, ExternalLink, Eye, FileText } from "lucide-react";
+/** @jsxRuntime classic */
+import React, { useState } from "react";
+import { ChevronDown, ChevronRight, Calculator, CheckCircle2, XCircle, RefreshCw, BookOpen, Sparkles, Layers, Variable, Shuffle, LineChart, Scale, Network, Download, ExternalLink, Eye, FileText } from "@lucide/react";
 import { motion, AnimatePresence } from "motion/react";
 import { materialsData } from "../data";
 import { MaterialItem } from "../types";
@@ -19,7 +20,7 @@ export default function MateriTab() {
   const [revealedAnswers, setRevealedAnswers] = useState<Record<string, boolean>>({});
 
   const toggleAccordion = (id: string) => {
-    setExpandedIds((prev) => ({
+    setExpandedIds((prev: Record<string, boolean>) => ({
       ...prev,
       [id]: !prev[id],
     }));
@@ -27,26 +28,26 @@ export default function MateriTab() {
 
   const handleSelectOption = (quizId: string, optionIndex: number) => {
     if (revealedAnswers[quizId]) return; // locked once checked
-    setSelectedAnswers((prev) => ({
+    setSelectedAnswers((prev: Record<string, number>) => ({
       ...prev,
       [quizId]: optionIndex,
     }));
   };
 
   const handleCheckAnswer = (quizId: string) => {
-    setRevealedAnswers((prev) => ({
+    setRevealedAnswers((prev: Record<string, boolean>) => ({
       ...prev,
       [quizId]: true,
     }));
   };
 
   const handleResetQuiz = (quizId: string) => {
-    setSelectedAnswers((prev) => {
+    setSelectedAnswers((prev: Record<string, number>) => {
       const copy = { ...prev };
       delete copy[quizId];
       return copy;
     });
-    setRevealedAnswers((prev) => {
+    setRevealedAnswers((prev: Record<string, boolean>) => {
       const copy = { ...prev };
       delete copy[quizId];
       return copy;
