@@ -3,7 +3,11 @@
 /** @jsxFrag React.Fragment */
 import * as React from "react";
 import { Info, GraduationCap, Compass, Layers, ShieldCheck, User, Instagram } from "lucide-react";
+import aditAvatar from "../assets/images/adit.jpg";
+import fawazAvatar from "../assets/images/fawaz.jpg";
 import venaAvatar from "../assets/images/vena.jpg";
+import raishaAvatar from "../assets/images/raisha.jpg";
+import wafaAvatar from "../assets/images/wafa.jpg";
 
 declare global {
   namespace JSX {
@@ -21,7 +25,7 @@ export default function TentangTab() {
       instagramUrl: "https://www.instagram.com/rhmaditya.n",
       instagramHandle: "@rhmaditya.n",
       description: "Merancang arsitektur sistem, memprogram interaktivitas game aljabar, mengelola state visual dinamis, serta mengintegrasikan modul e-book interaktif di Algebrify.",
-      photoUrl: "/src/assets/images/creator_avatar_1782743207163.jpg"
+      photoUrl: aditAvatar
     },
     {
       name: "Fawwaz Abyan",
@@ -29,7 +33,7 @@ export default function TentangTab() {
       instagramUrl: "https://www.instagram.com/fz_aby",
       instagramHandle: "@fz_aby",
       description: "Menyusun website, mengembangkan fitur interaktif, dan memastikan pengalaman pengguna yang optimal.",
-      photoUrl: "/src/assets/images/eka_avatar_1782744567121.jpg"
+      photoUrl: fawazAvatar
     },
     {
       name: "Vena Nabilah",
@@ -45,7 +49,7 @@ export default function TentangTab() {
       instagramUrl: "https://www.instagram.com/rshfdlh",
       instagramHandle: "@rshfdlh",
       description: "Kurator seluruh butir soal interaktif aljabar, bertanggung jawab menyusun penjelasan dan pembahasan kunci jawaban langkah demi langkah yang intuitif.",
-      photoUrl: "/src/assets/images/fajar_avatar_1782744597443.jpg"
+      photoUrl: raishaAvatar
     },
     {
       name: "Wafa Siti Fadilah",
@@ -53,7 +57,7 @@ export default function TentangTab() {
       instagramUrl: "https://www.instagram.com/wafa.stfdlh",
       instagramHandle: "@wafa.stfdlh",
       description: "Menguji visualisasi interaktif, memvalidasi kompatibilitas pembaca PDF di berbagai browser, serta memastikan seluruh platform bebas dari bug teknis.",
-      photoUrl: "/src/assets/images/andi_avatar_1782744608879.jpg"
+      photoUrl: wafaAvatar
     }
   ];
 

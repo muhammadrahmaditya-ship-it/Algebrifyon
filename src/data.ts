@@ -1,4 +1,6 @@
 import { MaterialItem, VideoCategory } from "./types";
+import Thumbnail1 from "../assets/images/thm1.jpg";
+
 
 export const materialsData: MaterialItem[] = [
   {
@@ -226,11 +228,11 @@ export const videoCategoriesData: VideoCategory[] = [
         id: "v-pola-1",
         title: "Pola bilangan (1) - Mencari suku suatu pola bilangan - H5P Lumi Interactive",
         duration: "Interactive",
-        instructor: "Lumi Education",
+        instructor: "Le Gurules",
         thumbnailClass: "from-blue-500 to-indigo-600",
         videoIdPlaceholder: "",
         videoUrl: "https://app.lumi.education/run/ztxexD",
-        thumbnailUrl: "/src/assets/images/lumi_math_thumb_1782739346511.jpg",
+        thumbnailUrl: Thumbnail1,
         views: "3.5K",
         rating: 5.0
       },
