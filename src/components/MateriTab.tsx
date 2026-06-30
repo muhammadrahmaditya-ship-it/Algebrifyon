@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { ChevronDown, ChevronRight, Calculator, CheckCircle2, XCircle, RefreshCw, BookOpen, Sparkles, Layers, Variable, Shuffle, LineChart, Scale, Network, Download, ExternalLink, Eye, FileText } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { materialsData } from "../data";

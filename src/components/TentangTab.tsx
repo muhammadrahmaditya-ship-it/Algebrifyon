@@ -6,41 +6,41 @@ export default function TentangTab() {
     {
       name: "M. Rahmaditia Novansyah",
       role: "Pengembang Utama & Arsitek Web",
-      instagramUrl: "https://www.instagram.com/rahmadityaa_",
-      instagramHandle: "@rahmadityaa_",
+      instagramUrl: "https://www.instagram.com/rhmaditya.n",
+      instagramHandle: "@rhmaditya.n",
       description: "Merancang arsitektur sistem, memprogram interaktivitas game aljabar, mengelola state visual dinamis, serta mengintegrasikan modul e-book interaktif di Algebrify.",
       photoUrl: "/src/assets/images/creator_avatar_1782743207163.jpg"
     },
     {
       name: "Fawwaz Abyan",
-      role: "Penulis Utama & Ahli Materi",
-      instagramUrl: "https://www.instagram.com/",
-      instagramHandle: "@ekasilviana",
-      description: "Penyusun buku utama pembelajaran aljabar, penanggung jawab keakuratan teori serta kurikulum matematika, serta merancang metode penyederhanaan subjek rumus secara komprehensif.",
+      role: "Pengembang Web",
+      instagramUrl: "https://www.instagram.com/fz_aby",
+      instagramHandle: "@fz_aby",
+      description: "Menyusun website, mengembangkan fitur interaktif, dan memastikan pengalaman pengguna yang optimal.",
       photoUrl: "/src/assets/images/eka_avatar_1782744567121.jpg"
     },
     {
       name: "Vena Nabilah",
       role: "Desainer Antarmuka (UI/UX)",
-      instagramUrl: "https://www.instagram.com/",
-      instagramHandle: "@sitinurhaliza",
+      instagramUrl: "https://www.instagram.com/vennaablh_",
+      instagramHandle: "@vennaablh_",
       description: "Merancang identitas visual aljabar yang ceria, menentukan palet warna bertema 'Joy Orange', serta memastikan kegunaan tata letak web responsif di HP maupun laptop.",
-      photoUrl: "/src/assets/images/siti_avatar_1782744582308.jpg"
+      photoUrl: "/src/assets/images/vena.jpeg"
     },
     {
       name: "Raisha Fadilah",
       role: "Penyusun Bank Soal & Evaluasi",
-      instagramUrl: "https://www.instagram.com/",
-      instagramHandle: "@fajarrmdh",
+      instagramUrl: "https://www.instagram.com/rshfdlh",
+      instagramHandle: "@rshfdlh",
       description: "Kurator seluruh butir soal interaktif aljabar, bertanggung jawab menyusun penjelasan dan pembahasan kunci jawaban langkah demi langkah yang intuitif.",
       photoUrl: "/src/assets/images/fajar_avatar_1782744597443.jpg"
     },
     {
       name: "Wafa Siti Fadilah",
       role: "Penjamin Mutu (QA Tester)",
-      instagramUrl: "https://www.instagram.com/",
-      instagramHandle: "@andiwijaya",
-      description: "Menguji kalkulator rumus interaktif, memvalidasi kompatibilitas pembaca PDF di berbagai browser, serta memastikan seluruh platform bebas dari bug teknis.",
+      instagramUrl: "https://www.instagram.com/wafa.stfdlh",
+      instagramHandle: "@wafa.stfdlh",
+      description: "Menguji visualisasi interaktif, memvalidasi kompatibilitas pembaca PDF di berbagai browser, serta memastikan seluruh platform bebas dari bug teknis.",
       photoUrl: "/src/assets/images/andi_avatar_1782744608879.jpg"
     }
   ];
