@@ -1,6 +1,4 @@
 import { MaterialItem, VideoCategory } from "./types";
-import Thumbnail1 from "../assets/images/thm1.jpg";
-
 
 export const materialsData: MaterialItem[] = [
   {
@@ -232,7 +230,7 @@ export const videoCategoriesData: VideoCategory[] = [
         thumbnailClass: "from-blue-500 to-indigo-600",
         videoIdPlaceholder: "",
         videoUrl: "https://app.lumi.education/run/ztxexD",
-        thumbnailUrl: Thumbnail1,
+        thumbnailUrl: "/src/assets/images/lumi_math_thumb_1782739346511.jpg",
         views: "3.5K",
         rating: 5.0
       },
