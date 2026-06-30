@@ -3,6 +3,7 @@
 /** @jsxFrag React.Fragment */
 import * as React from "react";
 import { Info, GraduationCap, Compass, Layers, ShieldCheck, User, Instagram } from "lucide-react";
+import venaAvatar from "../assets/images/vena.jpg";
 
 declare global {
   namespace JSX {
@@ -36,7 +37,7 @@ export default function TentangTab() {
       instagramUrl: "https://www.instagram.com/vennaablh_",
       instagramHandle: "@vennaablh_",
       description: "Merancang identitas visual aljabar yang ceria, menentukan palet warna bertema 'Joy Orange', serta memastikan kegunaan tata letak web responsif di HP maupun laptop.",
-      photoUrl: "/src/assets/images/vena.jpg"
+      photoUrl: venaAvatar
     },
     {
       name: "Raisha Fadilah",
