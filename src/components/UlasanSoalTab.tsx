@@ -18,6 +18,9 @@ import {
   UserCheck
 } from "lucide-react";
 
+const catatan1 = "/src/assets/images/c1.jpeg";
+const catatan2 = "/src/assets/images/c2.jpeg";
+
 // Questions from the actual PDF book
 const BANK_SOAL = [
   {
@@ -647,9 +650,9 @@ export default function UlasanSoalTab() {
               
               {/* Page 1 */}
               <div className="bg-white rounded-[2rem] border-2 border-slate-100 p-6 shadow-sm flex flex-col h-full group hover:border-joy-orange/30 transition-all duration-300">
-                <div className="relative overflow-hidden rounded-2xl bg-slate-50 border border-slate-100 aspect-[3/4] cursor-zoom-in mb-4" onClick={() => setZoomedImage("/src/assets/images/catatan_aljabar_1_1782741721035.jpg")}>
+                <div className="relative overflow-hidden rounded-2xl bg-slate-50 border border-slate-100 aspect-[3/4] cursor-zoom-in mb-4" onClick={() => setZoomedImage(catatan1)}>
                   <img
-                    src="/src/assets/images/catatan_aljabar_1_1782741721035.jpg"
+                    src={catatan1}
                     alt="Catatan Aljabar Halaman 1"
                     className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-300"
                     referrerPolicy="no-referrer"
@@ -683,9 +686,9 @@ export default function UlasanSoalTab() {
 
               {/* Page 2 */}
               <div className="bg-white rounded-[2rem] border-2 border-slate-100 p-6 shadow-sm flex flex-col h-full group hover:border-joy-orange/30 transition-all duration-300">
-                <div className="relative overflow-hidden rounded-2xl bg-slate-50 border border-slate-100 aspect-[3/4] cursor-zoom-in mb-4" onClick={() => setZoomedImage("/src/assets/images/catatan_aljabar_2_1782741744828.jpg")}>
+                <div className="relative overflow-hidden rounded-2xl bg-slate-50 border border-slate-100 aspect-[3/4] cursor-zoom-in mb-4" onClick={() => setZoomedImage(catatan2)}>
                   <img
-                    src="/src/assets/images/catatan_aljabar_2_1782741744828.jpg"
+                    src={catatan2}
                     alt="Catatan Aljabar Halaman 2"
                     className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-300"
                     referrerPolicy="no-referrer"

@@ -1,4 +1,7 @@
 import { MaterialItem, VideoCategory } from "./types";
+import lumiThumb from "./assets/images/thm1.jpg";
+import catatan1 from "./assets/images/c1.jpeg";
+import catatan2 from "./assets/images/c2.jpeg";
 
 export const materialsData: MaterialItem[] = [
   {
@@ -230,7 +233,7 @@ export const videoCategoriesData: VideoCategory[] = [
         thumbnailClass: "from-blue-500 to-indigo-600",
         videoIdPlaceholder: "",
         videoUrl: "https://app.lumi.education/run/ztxexD",
-        thumbnailUrl: "/src/assets/images/lumi_math_thumb_1782739346511.jpg",
+        thumbnailUrl: lumiThumb,
         views: "3.5K",
         rating: 5.0
       },
