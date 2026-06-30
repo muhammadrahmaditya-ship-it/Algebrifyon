@@ -25,7 +25,7 @@ export default function TentangTab() {
       instagramUrl: "https://www.instagram.com/vennaablh_",
       instagramHandle: "@vennaablh_",
       description: "Merancang identitas visual aljabar yang ceria, menentukan palet warna bertema 'Joy Orange', serta memastikan kegunaan tata letak web responsif di HP maupun laptop.",
-      photoUrl: "/src/assets/images/vena.jpeg"
+      photoUrl: "/src/assets/images/vena.jpg"
     },
     {
       name: "Raisha Fadilah",
