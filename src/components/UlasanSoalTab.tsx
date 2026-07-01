@@ -18,8 +18,8 @@ import {
   UserCheck
 } from "lucide-react";
 
-import catatan1 from "../public/c1.jpeg";
-import catatan2 from "../public/c2.jpeg";
+const catatan1 = "/c1.jpeg";
+const catatan2 = "/c2.jpeg";
 
 // Questions from the actual PDF book
 const BANK_SOAL = [
